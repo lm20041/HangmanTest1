@@ -116,7 +116,7 @@ def main():
             # HANGMAN_PICS.)
             if len(missedLetters) == len(HANGMAN_PICS) - 1:
                 drawHangman(missedLetters, correctLetters, secretWord)
-                print('You have run out of guesses!')
+                print('sorry You have run out of guesses!')
                 print('The word was "{}"'.format(secretWord))
                 break
 
