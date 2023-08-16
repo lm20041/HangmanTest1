@@ -12,29 +12,25 @@ import random, sys
 # (!) Try adding or changing the strings in HANGMAN_PICS to make a
 # guillotine instead of a gallows.
 HANGMAN_PICS = [r"""
- /\                 /\
+      /`·.¸
 
-/ \'._   (\_/)   _.'/ \
+     /¸...¸`:·
 
-|.''._'--(o.o)--'_.''.|
+ ¸.·´  ¸   `·.¸.·´)
 
- \_ / `;=/ " \=;` \ _/
+: © ):´;      ¸  {
 
-   `\__| \___/ |__/`
+ `·.¸ `·  ¸.·´\`·¸)
 
-jgs     \(_|_)/
-
-          ` """,
+     `\\´´\¸.·´""",
 r"""
-          .-._   _ _ _ _ _ _ _ _
-.-''-.__.-'00  '-' ' ' ' ' ' ' ' '-.
-'.___ '    .   .--_'-' '-' '-' _'-' '._
- V: V 'vv-'   '_   '.       .'  _..' '.'.
-   '=.____.=_.--'   :_.__.__:_   '.   : :
-           (((____.-'        '-.  /   : :
- snd                         (((-'\ .' /
-                           _____..'  .'
-                          '-._____.-'""",
+ +--+
+ |  |
+ O  |
+    |
+    |
+    |
+=====""",
 r"""
  +--+
  |  |
@@ -77,12 +73,12 @@ r"""
 ====="""]
 
 # (!) Try replacing CATEGORY and WORDS with new strings.
-CATEGORY = 'Animals'
-WORDS = 'ANT BABOON BADGER BAT BEAR BEAVER CAMEL CAT CLAM COBRA COUGAR COYOTE CROW DEER DOG DONKEY DUCK EAGLE FERRET FOX FROG GOAT GOOSE HAWK LION LIZARD LLAMA MOLE MONKEY MOOSE MOUSE MULE NEWT OTTER OWL PANDA PARROT PIGEON PYTHON RABBIT RAM RAT RAVEN RHINO SALMON SEAL SHARK SHEEP SKUNK SLOTH SNAKE SPIDER STORK SWAN TIGER TOAD TROUT TURKEY TURTLE WEASEL WHALE WOLF WOMBAT ZEBRA'.split()
+CATEGORY = 'OceanPollution'
+WORDS = 'Plastic Oil Chemical Sewage Nutrient HeavyMetal Radioactive Noise Thermal Microplastic MarineDebris HarmfulAlgalBlooms Pollution toxic'.split()
 
 
 def main():
-    print('Hangman, by Al Sweigart al@inventwithpython.com')
+    print('welcome to save the ocean Hangman, originally by Al Sweigart al@inventwithpython.com now by Leonaitasi Mafileo')
 
     # Setup variables for a new game:
     missedLetters = []  # List of incorrect letter guesses.
